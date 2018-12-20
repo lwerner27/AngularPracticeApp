@@ -5,7 +5,6 @@
 <!-- This does the same thing as we did previously just without having to use the custom onUpdateServerName method -->
 <input type="text" class="form-control" [(ngModel)]="serverName"> 
 <br>
-<p>{{ serverName }}</p>
 <button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">Add Server</button>
 <br>
 <br>
